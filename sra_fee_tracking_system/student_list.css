@@ -1,0 +1,149 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body & Font */
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    color: #00d4ff;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Navigation */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #00d4ff;
+  }
+  
+  /* Container */
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Form & Input */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="file"] {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(255, 255, 255, 0.8);
+    color: #000;
+    font-weight: 500;
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 10px 20px;
+    background: #00d4ff;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #00a3cc;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  table th, table td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  table th {
+    background-color: rgba(0, 212, 255, 0.2);
+    color: #00d4ff;
+  }
+  
+  table td {
+    color: #e0f7ff;
+  }
+  
+  /* Alerts */
+  .success-message,
+  .error-message {
+    padding: 12px;
+    margin: 20px 0;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .success-message {
+    background-color: rgba(40, 167, 69, 0.2);
+    color: #28a745;
+  }
+  
+  .error-message {
+    background-color: rgba(220, 53, 69, 0.2);
+    color: #dc3545;
+  }
+  
+  /* Footer */
+  footer {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+    text-align: center;
+    padding: 12px;
+    font-size: 0.9rem;
+    color: #e0f7ff;
+    margin-top: 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
